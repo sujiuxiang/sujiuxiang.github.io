@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
+<title>Contact</title>
 <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
 <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
 <!--web-font-->
@@ -47,12 +47,12 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav navbar-left">
-						<li><a href="index.html" class="active">Home</a></li>
+						<li><a href="index.html">Home</a></li>
 						<li><a href="tour.html">Tours</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="testimonial.html">Testimonials</a></li>
 						<li><a href="blog.html">Blog</a></li>
-						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="contact.html" class="active">Contact Us</a></li>
 					</ul>	
 					<div class="social-icons">
 						<ul>
@@ -84,137 +84,42 @@
 		</div>	
 	</div>
 	<!--//header-->
-	<div class="banner">
-		<!-- banner-text Slider starts Here -->
-				<script src="js/responsiveslides.min.js"></script>
-				 <script>
-					// You can also use "$(window).load(function() {"
-						$(function () {
-						// Slideshow 4
-							$("#slider3").responsiveSlides({
-							auto: true,
-							pager:false,
-							nav:true,
-							speed: 500,
-							namespace: "callbacks",
-							before: function () {
-							$('.events').append("<li>before event fired.</li>");
-							},
-							after: function () {
-								$('.events').append("<li>after event fired.</li>");
-							}
-						});	
-					});
-				</script>
-			<!--//End-slider-script -->
-			<div class="banner-title"> 
-				<div class="container">
-					<div  id="top" class="callbacks_container">
-						<ul class="rslides" id="slider3">
-							<li>
-								<h5>The wonderful trip</h5>
-								<h1>Molestias excepturi sintprovident</h1>
-							</li>
-							<li>
-								<h5>Vident sintocca</h5>
-								<h1>Cupiditate non provident molepturi </h1>
-							</li>
-							<li>
-								<h5>Excepturi sintstias</h5>
-								<h1>Non provident sint occaestiasexce</h1>
-							</li>
-						</ul>	
-					</div>
-				</div>
-            </div>	
-	</div>		
-	<div class="banner-bottom">
+	<div class="contact">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img1.jpg" alt="">
-					</a>
+			<ol class="breadcrumb">
+				<li><a href="index.html">Home</a></li>
+				<li>Contact Us</li>
+			</ol>
+			<div class="tesimonial"><h3>Contact Us</h3></div>
+		</div>	
+		<div class="map">
+			<h4>Map</h4>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14228.54849623564!2d-80.10342101116558!3d26.930867031043434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d93335441a6f7d%3A0xdc51486fff899a21!2sJupiter%2C+FL%2C+USA!5e0!3m2!1sen!2sin!4v1433741837407" frameborder="0" style="border:0"></iframe>
+		</div>
+		<div class="container">
+			<div class="contact-form">
+				<div class="col-md-4 contact-form-left">
+					<h4>Contact info</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.consectetur adipisicing elit, 
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>					
 				</div>
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img2.jpg" alt="">
-					</a>
+				<div class="col-md-8 contact-form-right">
+					<h4>Contact form</h4>
+					<form>
+						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="email" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+						<input type="submit" value="Submit" >
+					</form>
 				</div>
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img3.jpg" alt="">
-					</a>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img4.jpg" alt="">
-					</a>
-				</div>
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img5.jpg" alt="">
-					</a>
-				</div>
-				<div class="col-md-4 bb-grids">
-					<a href="singlepage.html" class="thumbnail">
-					  <img src="images/img6.jpg" alt="">
-					</a>
-				</div>
-				<div class="clearfix"> </div>
+				<div class="clearfix"></div>
 			</div>
 		</div>	
-	</div>	
-	<div class="banner-bottom">
-		<div class="container">
-			<h3>Temporibus autem quibusdam et aut officiis debitis aut rerum </h3>
-			<p>Donec vitae tellus non sem vulputate cursus. Aliquam erat volutpat. Proin ut est et sem rhoncus fringilla laoreet at mauris. Integer posuere massa metus. Etiam tortor dui, consectetur quis fringilla nec, suscipit non nibh. Cras velit mauris, consectetur sit amet congue a, dictum vehicula lorem. Etiam imperdiet aliquam sapien, dignissim dapibus lectus imperdiet non. </p>
-		</div>
-	</div>	
-	<div class="features">
-		<div class="container">
-			<h3>Necessitatibus saepe</h3>
-			<div class="row">
-				<div class="col-sm-6 col-md-4 featur-grids">
-					<div class="thumbnail feature-thmbnl">
-						<h4>Gilla frinreet</h4>
-						<img src="images/img7.jpg" alt="">
-						<div class="caption">
-							<h5><a href="singlepage.html">Aliquam erat volutpat<a></h5>
-							<p>Donec vitae tellus non sem vulputate cursus. Aliquam erat volutpat. Proin ut est et sem rhoncus fringilla laoreet</p>
-							<a href="singlepage.html" class="btn btn-primary hvr-rectangle-in">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 featur-grids">
-					<div class="thumbnail feature-thmbnl">
-						<h4>Gilla frinreet</h4>
-						<img src="images/img8.jpg" alt="">
-						<div class="caption">
-							<h5><a href="singlepage.html">Aliquam erat volutpat<a></h5>
-							<p>Donec vitae tellus non sem vulputate cursus. Aliquam erat volutpat. Proin ut est et sem rhoncus fringilla laoreet</p>
-							<a href="singlepage.html" class="btn btn-primary hvr-rectangle-in">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-6 col-md-4 featur-grids">
-					<div class="thumbnail feature-thmbnl">
-						<h4>Gilla frinreet</h4>
-						<img src="images/img9.jpg" alt="">
-						<div class="caption">
-							<h5><a href="singlepage.html">Aliquam erat volutpat<a></h5>
-							<p>Donec vitae tellus non sem vulputate cursus. Aliquam erat volutpat. Proin ut est et sem rhoncus fringilla laoreet</p>
-							<a href="singlepage.html" class="btn btn-primary hvr-rectangle-in">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
 	</div>
+	<!--//contact-->
+	<!--footer-->
 	<div class="footer">
 		<div class="container">
 			<div class="col-md-4 about">
@@ -231,7 +136,7 @@
 				    </div>
 					<div class="media-body">
 						<h4 class="media-heading"><a href="singlepage.html">Lorest Nesto</a></h4>
-						<h5>April 17, 2015</h5>
+						<h5>April 17, 2014</h5>
 					</div>
 				</div>
 				<div class="media">
@@ -242,7 +147,7 @@
 				    </div>
 					<div class="media-body">
 						<h4 class="media-heading"><a href="singlepage.html">Lorest Nesto</a></h4>
-						<h5>April 17, 2015</h5>
+						<h5>April 17, 2014</h5>
 					</div>
 				</div>
 				<div class="media">
@@ -253,7 +158,7 @@
 				    </div>
 					<div class="media-body">
 						<h4 class="media-heading"><a href="singlepage.html">Lorest Nesto</a></h4>
-						<h5>April 17, 2015</h5>
+						<h5>April 17, 2014</h5>
 					</div>
 				</div>
 			</div>
@@ -275,6 +180,7 @@
 			<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
 		</div>
 	</div>
+	<!--//footer-->
 	<!--smooth-scrolling-of-move-up-->
 		<script type="text/javascript">
 			$(document).ready(function() {
